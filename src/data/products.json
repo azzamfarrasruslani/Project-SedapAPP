@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Coffee",
+    "description": "The latest iPhone featuring A15 Bionic chip and Dual Camera system.",
+    "category": "technology",
+    "price": 799.0,
+    "discountPercentage": 10,
+    "rating": 4.9,
+    "stock": 30,
+    "tags": ["smartphone", "Apple"],
+    "brand": "Apple",
+    "image": "https://www.digimap.co.id/cdn/shop/files/iPhone_13_Starlight_PDP_Image_Position-1A__GBEN_98e0c4d1-0723-42e3-a94b-430c80f4d062.jpg?v=1717739436&width=713",
+    "dimensions": { "width": 71.5, "height": 146.7, "depth": 7.65 }
+  },
+  {
+    "id": 2,
+    "title": "Spagetti",
+    "description": "A powerful smartphone with a sleek design and impressive camera features.",
+    "category": "technology",
+    "price": 699.99,
+    "discountPercentage": 5,
+    "rating": 4.7,
+    "stock": 40,
+    "tags": ["smartphone", "Samsung"],
+    "brand": "Samsung",
+    "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSe7D0PQAsz0jEZDwgOFvmOBVyro6Ct-cJVV439IOKJgeC6e-8jASQhrtO6jmycYqAGMgS7IXQj9yMX3IUNWHeNXWVYDGMpZKfk-I3OIegCy4sm3kGmjjmX1w&usqp=CAE",
+    "dimensions": { "width": 71.2, "height": 151.7, "depth": 7.9 }
+  },
+  {
+    "id": 3,
+    "title": "Soto",
+    "description": "Noise-canceling wireless headphones with exceptional sound quality.",
+    "category": "technology",
+    "price": 349.99,
+    "discountPercentage": 15,
+    "rating": 4.8,
+    "stock": 25,
+    "tags": ["headphones", "Sony"],
+    "brand": "Sony",
+    "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQTznGLD9sgizPdcJcONrrsZuizU2pjN7N_h0L7dtHlxRUWgtuwPqBS-OBaZ864eoA-kw1oUGWu7N1UB93mRaLdhuZoT2ncgy2VtMxU1fdhzj__qnqzPTVt2g&usqp=CAE",
+    "dimensions": { "width": 25.3, "height": 23.5, "depth": 9.7 }
+  }
+]

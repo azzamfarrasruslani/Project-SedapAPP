@@ -1,0 +1,32 @@
+[
+    {
+      "member_id": 1,
+      "nama": "Coffee",
+      "email": "1@gmail.com",
+      "tipeMember": "gold"
+    },
+    {
+      "member_id": 2,
+      "nama": "Coffee",
+      "email": "2@gmail.com",
+      "tipeMember": "silver"
+    },
+    {
+      "member_id": 3,
+      "nama": "Coffee",
+      "email": "3@gmail.com",
+      "tipeMember": "platinum"
+    },
+    {
+      "member_id": 4,
+      "nama": "Coffee",
+      "email": "4@gmail.com",
+      "tipeMember": "platinum"
+    },
+    {
+      "member_id": 5,
+      "nama": "Coffee",
+      "email": "5@gmail.com",
+      "tipeMember": "gold"
+    }
+]

@@ -1,0 +1,212 @@
+[
+    {
+        "CustomerID": 1,
+        "CustomerName": "Elizabeth Shaw",
+        "Email": "eric31@hotmail.com",
+        "Phone": "(662)822-5744",
+        "Loyalty": "Silver"
+    },
+    {
+        "CustomerID": 2,
+        "CustomerName": "Jeff Cruz",
+        "Email": "jessica16@thomas.com",
+        "Phone": "+1-739-291-5756x90010",
+        "Loyalty": "Gold"
+    },
+    {
+        "CustomerID": 3,
+        "CustomerName": "Mrs. Cynthia Moore",
+        "Email": "hblack@walls.com",
+        "Phone": "(789)219-8370",
+        "Loyalty": "Gold"
+    },
+    {
+        "CustomerID": 4,
+        "CustomerName": "Shawn Flores",
+        "Email": "cjohnson@gmail.com",
+        "Phone": "+1-364-598-8289x9604",
+        "Loyalty": "Bronze"
+    },
+    {
+        "CustomerID": 5,
+        "CustomerName": "Rebecca Allen",
+        "Email": "carolinegreene@allen.info",
+        "Phone": "442.897.7010x219",
+        "Loyalty": "Gold"
+    },
+    {
+        "CustomerID": 6,
+        "CustomerName": "Monica Holmes",
+        "Email": "katrina65@wright-carter.com",
+        "Phone": "(676)251-4952x0553",
+        "Loyalty": "Gold"
+    },
+    {
+        "CustomerID": 7,
+        "CustomerName": "Kristina Green",
+        "Email": "dhoffman@hotmail.com",
+        "Phone": "+1-811-967-2440",
+        "Loyalty": "Silver"
+    },
+    {
+        "CustomerID": 8,
+        "CustomerName": "Pamela Smith",
+        "Email": "martincolin@hotmail.com",
+        "Phone": "219.563.0453x434",
+        "Loyalty": "Silver"
+    },
+    {
+        "CustomerID": 9,
+        "CustomerName": "Alexandra Williams",
+        "Email": "andersonchristian@hotmail.com",
+        "Phone": "896-017-5705x943",
+        "Loyalty": "Gold"
+    },
+    {
+        "CustomerID": 10,
+        "CustomerName": "Michael Reeves",
+        "Email": "scottchen@johnson-jenkins.com",
+        "Phone": "630.114.8732x2791",
+        "Loyalty": "Bronze"
+    },
+    {
+        "CustomerID": 11,
+        "CustomerName": "Anna Holt",
+        "Email": "cmartinez@powers.info",
+        "Phone": "235.216.1547x37292",
+        "Loyalty": "Gold"
+    },
+    {
+        "CustomerID": 12,
+        "CustomerName": "Alexandra Perez",
+        "Email": "pattonchelsea@garcia-cook.com",
+        "Phone": "630-628-1781",
+        "Loyalty": "Gold"
+    },
+    {
+        "CustomerID": 13,
+        "CustomerName": "Richard Morrison",
+        "Email": "john50@potter.org",
+        "Phone": "+1-080-605-8160x53433",
+        "Loyalty": "Gold"
+    },
+    {
+        "CustomerID": 14,
+        "CustomerName": "Natalie Peterson",
+        "Email": "michelle68@yahoo.com",
+        "Phone": "(404)910-4091x726",
+        "Loyalty": "Bronze"
+    },
+    {
+        "CustomerID": 15,
+        "CustomerName": "Monica Wells",
+        "Email": "ptran@mason-gomez.com",
+        "Phone": "2212041784",
+        "Loyalty": "Bronze"
+    },
+    {
+        "CustomerID": 16,
+        "CustomerName": "Gary Malone",
+        "Email": "justinayala@yahoo.com",
+        "Phone": "001-667-028-1626",
+        "Loyalty": "Silver"
+    },
+    {
+        "CustomerID": 17,
+        "CustomerName": "Tanner Smith",
+        "Email": "hrodriguez@gmail.com",
+        "Phone": "+1-073-394-0587x483",
+        "Loyalty": "Bronze"
+    },
+    {
+        "CustomerID": 18,
+        "CustomerName": "James Velasquez",
+        "Email": "brian65@brown-cochran.org",
+        "Phone": "002.852.6967",
+        "Loyalty": "Gold"
+    },
+    {
+        "CustomerID": 19,
+        "CustomerName": "Nicholas Ortiz",
+        "Email": "panderson@yahoo.com",
+        "Phone": "+1-677-718-4909x0643",
+        "Loyalty": "Bronze"
+    },
+    {
+        "CustomerID": 20,
+        "CustomerName": "Daniel Mooney",
+        "Email": "lisa10@martin.biz",
+        "Phone": "522-831-6835x6081",
+        "Loyalty": "Bronze"
+    },
+    {
+        "CustomerID": 21,
+        "CustomerName": "Ashley Brown",
+        "Email": "josephmiller@hotmail.com",
+        "Phone": "178-090-5083",
+        "Loyalty": "Silver"
+    },
+    {
+        "CustomerID": 22,
+        "CustomerName": "Tara Bass",
+        "Email": "ocampbell@hardy-rodriguez.com",
+        "Phone": "(210)786-9064x4463",
+        "Loyalty": "Bronze"
+    },
+    {
+        "CustomerID": 23,
+        "CustomerName": "Mary Stewart",
+        "Email": "mark68@floyd-gray.com",
+        "Phone": "001-443-021-0720x08887",
+        "Loyalty": "Bronze"
+    },
+    {
+        "CustomerID": 24,
+        "CustomerName": "Alan Morris DDS",
+        "Email": "melissamontoya@hill-ramirez.com",
+        "Phone": "865.389.6609x830",
+        "Loyalty": "Silver"
+    },
+    {
+        "CustomerID": 25,
+        "CustomerName": "Michael Woods",
+        "Email": "ortizjackson@yahoo.com",
+        "Phone": "+1-925-680-9332x715",
+        "Loyalty": "Gold"
+    },
+    {
+        "CustomerID": 26,
+        "CustomerName": "Jack Martinez",
+        "Email": "blake54@schmidt.info",
+        "Phone": "(778)554-5685x218",
+        "Loyalty": "Gold"
+    },
+    {
+        "CustomerID": 27,
+        "CustomerName": "Michael Vargas",
+        "Email": "leslie88@villegas.net",
+        "Phone": "382.025.8817",
+        "Loyalty": "Bronze"
+    },
+    {
+        "CustomerID": 28,
+        "CustomerName": "Molly Garrett",
+        "Email": "ryan34@yahoo.com",
+        "Phone": "288-857-4882x6079",
+        "Loyalty": "Bronze"
+    },
+    {
+        "CustomerID": 29,
+        "CustomerName": "Elijah Quinn",
+        "Email": "spencercortez@gmail.com",
+        "Phone": "079.376.1460x87701",
+        "Loyalty": "Gold"
+    },
+    {
+        "CustomerID": 30,
+        "CustomerName": "Samantha Sanchez",
+        "Email": "chelsea67@hotmail.com",
+        "Phone": "+1-421-448-8650x5982",
+        "Loyalty": "Silver"
+    }
+]
