@@ -33,7 +33,7 @@ export default function HeroSection() {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.5, duration: 0.8 }}
       >
-        The Best Restaurants In Your Home
+        The Best Restaurants In Your Home Azzam
       </motion.h1>
 
       <motion.p
