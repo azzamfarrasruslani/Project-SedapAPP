@@ -6,9 +6,10 @@ export default function MenuList() {
     { id: "menu-2", label: "Orders", icon: "newspaper", to: "/orders" },
     { id: "menu-3", label: "Customers", icon: "people", to: "/customers" },
     { id: "menu-4", label: "Users", icon: "user", to: "/users" },
-    { id: "menu-5", label: "Error 404", icon: "error", to: "/error/404" },
-    { id: "menu-6", label: "Error 403", icon: "error", to: "/error/403" },
-    { id: "menu-7", label: "Error 401", icon: "error", to: "/error/401" },
+    { id: "menu-5", label: "Prodcts", icon: "products", to: "/products" },
+    { id: "menu-7", label: "Error 404", icon: "error", to: "/error/404" },
+    { id: "menu-8", label: "Error 403", icon: "error", to: "/error/403" },
+    { id: "menu-9", label: "Error 401", icon: "error", to: "/error/401" },
   ];
 
   // const menuClass = `flex cursor-pointer items-center rounded-xl p-4 space-x-2

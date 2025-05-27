@@ -4,7 +4,7 @@ import { BiError } from "react-icons/bi";
 import { LuNewspaper } from "react-icons/lu";
 import { BiHomeAlt } from "react-icons/bi";
 import { IoPeopleOutline } from "react-icons/io5";
-
+import { MdFastfood } from "react-icons/md";
 const iconMap = {
   newspaper: LuNewspaper,
   home: BiHomeAlt,
@@ -12,6 +12,7 @@ const iconMap = {
   error: BiError,
   leftArrow: AiOutlineArrowLeft,
   user: RiUserSettingsLine,
+  products : MdFastfood
 };
 
 const Icon = ({ name, className }) => {
