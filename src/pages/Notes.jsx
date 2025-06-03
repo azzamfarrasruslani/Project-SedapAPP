@@ -1,3 +1,4 @@
+import { BiEdit } from "react-icons/bi";
 import { notesAPI } from "../services/notesAPI";
 import { useEffect, useState } from "react";
 import AlertBox from "../components/AlertBox";
@@ -11,6 +12,8 @@ export default function Notes() {
   const [error, setError] = useState("");
   const [success, setSuccess] = useState("");
   const [notes, setNotes] = useState([]);
+  const [editingId, setEditingId] = useState(null);
+
   const [dataForm, setDataForm] = useState({
     title: "",
     content: "",
@@ -35,15 +38,18 @@ export default function Notes() {
       setError("");
       setSuccess("");
 
-      await notesAPI.createNote(dataForm); // <-- diperbaiki
+      if (editingId) {
+        await notesAPI.editNote(editingId, dataForm);
+        setSuccess("Catatan berhasil diperbarui!");
+      } else {
+        await notesAPI.createNote(dataForm);
+        setSuccess("Catatan berhasil ditambahkan!");
+      }
 
-      setSuccess("Catatan berhasil ditambahkan!");
-
-      setDataForm({ title: "", content: "", status: "" }); // <-- diperbaiki
-
+      setDataForm({ title: "", content: "", status: "" });
+      setEditingId(null);
       setTimeout(() => setSuccess(""), 3000);
-
-      loadNotes(); // Pastikan fungsi ini didefinisikan
+      loadNotes();
     } catch (err) {
       setError(`Terjadi kesalahan: ${err.message}`);
     } finally {
@@ -89,6 +95,15 @@ export default function Notes() {
     } finally {
       setLoading(false);
     }
+  };
+
+  const handleEdit = (note) => {
+    setDataForm({
+      title: note.title,
+      content: note.content,
+      status: note.status || "",
+    });
+    setEditingId(note.id);
   };
 
   return (
@@ -178,13 +193,18 @@ export default function Notes() {
                 <td className="px-6 py-4 max-w-xs">
                   <div className="truncate text-gray-600">{note.content}</div>
                 </td>
-                <td className="px-6 py-4 max-w-xs">
+                <td className="px-6 py-4 max-w-xs flex">
                   <div className="truncate text-gray-600">
                     <button
                       onClick={() => handleDelete(note.id)}
                       disabled={loading}
                     >
                       <AiFillDelete className="text-red-400 text-2xl hover:text-red-600 transition-colors" />
+                    </button>
+                  </div>
+                  <div className="truncate text-gray-600">
+                    <button onClick={() => handleEdit(note)} disabled={loading}>
+                      <BiEdit className="text-blue-400 text-2xl hover:text-blue-600 transition-colors" />
                     </button>
                   </div>
                 </td>
