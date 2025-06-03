@@ -22,6 +22,7 @@ const Dashboard = React.lazy(() => import("./pages/Dashboard"));
 const Orders = React.lazy(() => import("./pages/Orders"));
 const Customers = React.lazy(() => import("./pages/Customers"));
 const Users = React.lazy(() => import("./pages/Users"));
+const Notes = React.lazy(() => import("./pages/Notes"));
 const Product = React.lazy(() => import("./pages/Products"));
 const ProductDetail = React.lazy(() => import("./pages/ProductDetail"));
 
@@ -52,6 +53,7 @@ export default function App() {
           <Route path="/products" element={<Product />} />
           <Route path="/products/:id" element={<ProductDetail />} />
           <Route path="/users" element={<Users />} />
+          <Route path="/notes" element={<Notes />} />
           {/* <Route path="/error/:errorCode" element={<ErrorPage />} /> */}
           {/* <Route path="*" element={<NotFound />} /> */}
         </Route>
