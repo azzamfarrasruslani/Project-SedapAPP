@@ -15,6 +15,8 @@ const Home = () => {
         <HeroSection />
       </div>
 
+      
+
       <AboutUs />
       <BestRestaurantsSection/>
       <OrderSection/>

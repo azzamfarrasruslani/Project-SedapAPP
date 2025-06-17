@@ -1,4 +1,4 @@
-import "./Pertemuan-5/assets/tailwind.css";
+import "../src/tailwind.css";
 import React, { Suspense } from "react";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
